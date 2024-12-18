@@ -9,14 +9,23 @@
     <title>Todo List</title>
 </head>
 <body>
-   <div id="todos">
-     <h1>To-Dos</h1>
-     <ul id="todoList">
-     </ul>
-     <div class="addTodo">
-       <input type=text placeholder="Add To-Do" id="newTodo">
-     </div>
-   </div>
+  <div id="todos">
+    <h1>To-Dos</h1>
+    <ul id="todoList">
+      <li>
+        <label><input type="checkbox" class="taskCheckbox">Make morning coffee</label>
+        <button class="deleteBtn">Delete</button>
+      </li>
+      <li>
+        <label><input type="checkbox" class="taskCheckbox">Remember to buy groceries</label>
+        <button class="deleteBtn">Delete</button>
+      </li>
+    </ul>
+    <div class="addTodo">
+      <input type="text" placeholder="Add more tasks" id="addTodo">
+      <button id="add">Add</button>
+    </div>
+  </div>
 </body>
 <script src="index.js"></script>
 </html>
